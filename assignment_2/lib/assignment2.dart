@@ -45,7 +45,7 @@ class Assignment2State extends State<Assignment2> {
                   Container(
                     height: 100,
                     width: 100,
-                    color: box1color? Colors.red : Colors.black,
+                    color: box1color ? Colors.red : Colors.black,
                   ),
                   const SizedBox(
                     height: 20,
@@ -86,14 +86,14 @@ class Assignment2State extends State<Assignment2> {
                     },
                     child: const Text("color Box2"),
                   ),
-                  const SizedBox(
-                    width: 20,
-                  ),
+                  // const SizedBox(
+                  //   width: 20,
+                  // ),
                 ],
               ),
-              const SizedBox(
-                width: 20,
-              ),
+              // const SizedBox(
+              //   width: 20,
+              // ),
             ],
           ),
         ],
